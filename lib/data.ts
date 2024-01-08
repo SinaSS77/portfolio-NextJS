@@ -2,13 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import Jungle from "@/public/Jungle.png";
-import Movie_Island from "@/public/Movie_Island.png";
-import Portfolio from "@/public/Portfolio.png";
-import Scheduler from "@/public/Scheduler.png";
-import SmartToDo from "@/public/SmartToDo.jpg";
-import TinyURL from "@/public/tinyURL.png";
-import Tweeter from "@/public/Tweeter.png";
+import corpcommentImg from "@/public/corpcomment.png";
+import rmtdevImg from "@/public/rmtdev.png";
+import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -39,95 +35,58 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Front-End Web Developer",
-    location: "Free Lancer, Voncouver",
+    title: "Graduated bootcamp",
+    location: "Miami, FL",
     description:
-      "I graduated ",
+      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "03/2023 - Present",
+    date: "2019",
   },
   {
-    title: "Technician and Marketing Assistant",
-    location: "Compass Group Canada, Vancouver",
+    title: "Front-End Developer",
+    location: "Orlando, FL",
     description:
-      "I worked as a front-end developer ",
+      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "12/2021 - Present",
+    date: "2019 - 2021",
   },
   {
-    title: "Computer Support Technician",
-    location: "Persia Construction Inc., Saskatoon",
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "02/2021 - 09/2021",
-  },
-  {
-    title: "IT Technician",
-    location: "Nazhin Computer, Tehran",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "01/2006 - 06/2020",
+    date: "2021 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "first",
+    title: "CorpComment",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: Jungle,
+    imageUrl: corpcommentImg,
   },
   {
-    title: "Second",
+    title: "rmtDev",
     description:
-      "Job board for remote developer jobs. ",
+      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: Movie_Island,
+    imageUrl: rmtdevImg,
   },
   {
-    title: "Third",
+    title: "Word Analytics",
     description:
-      "A public web app for quick analytics on text.",
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: Portfolio,
-  },
-  {
-    title: "Fourth",
-    description:
-      "A public web app for quick analytics on text.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: Scheduler,
-  },
-  {
-    title: "Fifth",
-    description:
-      "A public web app for quick analytics on text.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: SmartToDo,
-  },
-  {
-    title: "Sixth",
-    description:
-      "A public web app for quick analytics on text.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: TinyURL,
-  },
-  {
-    title: "Seventh",
-    description:
-      "A public web app for quick analytics on text.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: Tweeter,
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
-  "Sass",
   "JavaScript",
   "TypeScript",
   "React",
@@ -137,12 +96,12 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Sql",
-  "PostgreSQL",
-  "Git",
-  "Github",
+  "Redux",
+  "GraphQL",
+  "Apollo",
   "Express",
-  "PhotoShope",
-  "Figma",
-  "Excalidraw",
+  "PostgreSQL",
+  "Python",
+  "Django",
+  "Framer Motion",
 ] as const;
