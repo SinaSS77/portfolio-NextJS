@@ -1,1 +1,0 @@
-This is my portfolio app using Next.JS, TailwindCSS and TypeScript

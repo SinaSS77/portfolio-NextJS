@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Movie_Island from "@/public/Movie_Island.png";
+import Scheduler from "@/public/Scheduler.png";
+import SmartToDo from "@/public/SmartToDo.jpg";
 
 export const links = [
   {
@@ -28,6 +28,10 @@ export const links = [
     hash: "#experience",
   },
   {
+    name: "Education",
+    hash: "#education",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
@@ -35,73 +39,98 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Front-End Web Developer",
+    location: "Freelancer",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      ["Designing and updating layouts to meet usability and performance requirements.","Producing websites compatible with multiple browsers.","Testing web-based product functionality and delivering iterations to customer.","Guiding customers on project stages and iterations with input on best practices, user needs and technology capabilities."],
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "03/2023 - Present",
+  },
+  {
+    title: "Technician and Marketing Assistant",
+    location: "Compass Group Canada, Port Coquitlam, BC",
+    description:
+      ["Repairing broken-down desktop computers, printers and other office machines","Training users in proper use of POS system software.","Reporting on research findings through digital reports and face-to-face presentations to update managers on current data."],
+    icon: React.createElement(CgWorkAlt),
+    date: "12/2021 – present",
+  },
+  {
+    title: "Computer Support Technician",
+    location: "Persia Construction Inc., Saskatoon, Canada",
+    description:
+      ["Delivered first-level technical support to customers using defined help desk processes and procedures.","Collaborated with team members to efficiently manage and maintain the organization's desktop computing environment.","Developed website’s user interface with modern JavaScript frameworks, HTML 5, CSS 3 and SASS, which improved user satisfaction by 30%."],
+    icon: React.createElement(CgWorkAlt),
+    date: "02/2021 – 09/2021",
+  },
+] as const;
+
+export const educationsData = [
+  {
+    title: "Diploma/Full-Stack Web Development",
+    location: "Lighthouse Labs, Vancouver, BC",
+    description:
+      ["Completed a 16-week full-time web development bootcamp program at Lighthouse, gaining over 1300 hours of hands-on experience with various tech stacks.","Honed skills as a developer and became proficient in writing full-stack applications using React, PSQL databases, NodeJs servers, and other libraries.","Successfully completed over 6 practical REST-API apps"],
+    icon: React.createElement(LuGraduationCap),
+    date: "04/2023",
+  },
+  {
+    title: "Associate of Science/ Applied Web Development",
+    location: "British Columbia Institute of Technology (BCIT), Vancouver, BC",
+    description:
+      ["Strengthened proficiency in JavaScript and TypeScript through continuous learning and skill enhancement initiatives.","Successfully executed projects utilizing React.js and Next.js"],
+    icon: React.createElement(LuGraduationCap),
+    date: "01/2022",
+  },
+  {
+    title: "Bachelor's Degree/ Computer Science Engineering",
+    location: "Azad University, Tehran, Iran",
+    description:
+      [],
+    icon: React.createElement(LuGraduationCap),
+    date: "06/2000",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Movie_Island",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A React application that allows users to search and look up information about movies and watch their trailers. The application includes pages, search functionality, Also the ability for users to upload their videos and movies.",
+    tags: ["React", "Node.js", "MongoDB", "Tailwind", "JWT"],
+    imageUrl: Movie_Island,
   },
   {
-    title: "rmtDev",
+    title: " Interview-Scheduler",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A 7-day deadline React application that allows users to book/edit/cancel interviews. I combined a concise API with an Express/WebSocket server to build a real-time experience and managed complex states using reducers.",
+    tags: ["React", "Express", "Node.js", "Tailwind", "JWT"],
+    imageUrl: Scheduler,
   },
   {
-    title: "Word Analytics",
+    title: "Smart To Do",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "a single-page application. users can easily input the name of their daily todo's. Then, by using GoogleAPI, the app will find the appropriate category for that and save it. Users can edit or delete items.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: SmartToDo,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "SCSS",
+  "Tailwind",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
+  "GitHub",
+  "SQL",
+  "PostgreSQL",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "JWS",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
