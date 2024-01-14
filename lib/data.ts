@@ -98,6 +98,7 @@ export const projectsData = [
       "A React application that allows users to search and look up information about movies and watch their trailers. The application includes pages, search functionality, Also the ability for users to upload their videos and movies.",
     tags: ["React", "Node.js", "MongoDB", "Tailwind", "JWT"],
     imageUrl: Movie_Island,
+    linkUrl:"https://github.com/SinaSS77/Movie_Island",
   },
   {
     title: " Interview-Scheduler",
@@ -105,6 +106,7 @@ export const projectsData = [
       "A 7-day deadline React application that allows users to book/edit/cancel interviews. I combined a concise API with an Express/WebSocket server to build a real-time experience and managed complex states using reducers.",
     tags: ["React", "Express", "Node.js", "Tailwind", "JWT"],
     imageUrl: Scheduler,
+    linkUrl:"https://github.com/SinaSS77/scheduler",
   },
   {
     title: "Smart To Do",
@@ -112,6 +114,7 @@ export const projectsData = [
       "a single-page application. users can easily input the name of their daily todo's. Then, by using GoogleAPI, the app will find the appropriate category for that and save it. Users can edit or delete items.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: SmartToDo,
+    linkUrl:"https://github.com/SinaSS77/SmartToDoList",
   },
 ] as const;
 
